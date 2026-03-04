@@ -7,6 +7,8 @@
 Below is the interface of the Crop Yield Prediction System.
 
 <img width="858" height="492" alt="Screenshot 2026-03-04 130540" src="https://github.com/user-attachments/assets/a960778a-77f5-4806-8783-a4d6ea7133f5" />
+<img width="760" height="194" alt="image" src="https://github.com/user-attachments/assets/5e532b7a-53aa-4892-b42b-7d7ae5a2d121" />
+
 <img width="882" height="616" alt="image" src="https://github.com/user-attachments/assets/9409484c-f475-411d-9428-6d4eef0a7246" />
 
 
