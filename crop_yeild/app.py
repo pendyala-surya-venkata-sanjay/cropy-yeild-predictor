@@ -34,7 +34,7 @@ c = st.container()
 with c:
     st.markdown("<div style='text-align:center;'>", unsafe_allow_html=True)
 
-    st.image("logo.png", width=200)
+    st.image("images/logo.png", width=200)
 
     st.markdown(
         "<h1 style='text-align:center; color:black; margin-top:10px;'>"
@@ -95,7 +95,7 @@ def clean_city_name(district):
 # -----------------------------------------------------
 @st.cache_data
 def load_dataset():
-    df = pd.read_csv("crop_yeild_dataset1.csv")
+    pd.read_csv("data/crop_yield_dataset1.csv")
     df.columns = [c.strip() for c in df.columns]
     return df
 
@@ -103,7 +103,7 @@ df = load_dataset()
 
 @st.cache_resource
 def load_model():
-    with open("best_crop_yield_model.pkl", "rb") as f:
+    with open("model/best_crop_yield_model.pkl","rb") as f:
         return pickle.load(f)
 
 bundle = load_model()
@@ -435,3 +435,4 @@ if st.button("Predict Yield"):
 
 # Footer
 st.caption("Crop Yield Predictor")
+
