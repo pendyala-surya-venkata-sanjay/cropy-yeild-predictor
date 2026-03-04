@@ -47,17 +47,26 @@ best_crop_yield_model.pkl
 
 ```
 crop-yield-predictor
+crop-yield-predictor
 │
-├── app.py                      # Streamlit web application
-├── whole.py                    # ML model training pipeline
-├── maincode.ipynb              # Jupyter notebook for experimentation
+├── app.py                     # Streamlit web application
 │
-├── crop_yeild_dataset1.csv     # Dataset used for training
-├── best_crop_yield_model.pkl   # Trained ML model
-├── logo.png                    # Project logo
+├── data
+│   └── crop_yield_dataset1.csv   # Dataset used for training
 │
-├── requirements.txt            # Required Python libraries
-└── README.md                   # Project documentation
+├── model
+│   └── best_crop_yield_model.pkl # Saved trained ML model
+│
+├── maincode.ipynb             # Jupyter notebook for experimentation
+│
+├── whole.py                   # ML training pipeline
+│
+├── images
+│   └── logo.png               # Project logo / screenshots
+│
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+└── .gitignore                 # Ignore unnecessary files
 ```
 
 ---
